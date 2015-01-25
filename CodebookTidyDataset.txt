@@ -1,0 +1,14 @@
+Codebook for the tidy dataset. 
+
+The tidy dataset that is created using the run_analyis.R file is decribed here. 
+
+This tidy.txt file is a tab delimited text file that consist of the summary information from the UCI HAR data set. 
+That data set can be found here: https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
+That data set consist of smart phone  gyroscope and accerometer measurments performed on various human activities.
+
+The tidy data set consist of summary means and standard deviations taken from the data in the UCI har data set factored on the subject ID and the activity. 
+It consist of 180 observation on 88 variables. 
+The first two columns identify the subject and the activity labels. The remaining columns are the averages of the mean and standard deviation on measuerments taken.
+
+The tidy data set is create using the run_anlysis.R file. See the md file included in this repo for more information on how the tidy data set is created. 
+
