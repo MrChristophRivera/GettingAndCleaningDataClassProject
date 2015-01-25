@@ -26,3 +26,5 @@ from the features file. (after they have been properly subset as above.
 5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 To do this, it first computes a compound factor using the interaction function. Then it uses the aggregate function (a type of apply function) to compute the average of each varibale for each activity and each subject. 
 Then it cleans up the tidy data set and saves it as a tab delimted file in the parent directory. 
+
+It also contains the tidy.txt and a codebook text file. 
